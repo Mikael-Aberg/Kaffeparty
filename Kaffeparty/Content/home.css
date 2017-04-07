@@ -1,0 +1,74 @@
+﻿body {
+    font-family: 'Cambria Math';
+    background-image: url(../images/background-home.jpg);
+}
+
+h1 {
+    font-family: Elephant;
+}
+
+.background {
+    background-position: center;
+}
+
+.space-divider {
+    height: 100px;
+}
+
+.page-header {
+    border-color: #c1a66b;
+}
+
+.img-row {
+    color: #0A0601;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #ffeec9, #d4ba82);
+    box-shadow: 5px 0 20px rgba(0,0,0,0.5), -5px 0 20px rgba(0,0,0,0.5);
+}
+
+    .img-row h1 {
+        text-align: center;
+    }
+
+    .img-row p {
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        line-height: 1.5em;
+    }
+
+    .img-row img {
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 550px;
+        max-width: 550px;
+        width: 100%;
+        box-shadow: 10px 10px 40px rgba(0,0,0,0.5);
+    }
+
+@media(max-width: 768px) {
+    .space-divider {
+        height: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .img-row {
+        background: none;
+        background-color: #ffeec9;
+        box-shadow: 0 0 0 rgba(0,0,0,0), 0 0 0 rgba(0,0,0,0);
+    }
+
+        .img-row h1 {
+            padding-top: 20px;
+        }
+}
+
+.last {
+    margin-bottom: 0;
+}
+
+.center-me {
+    margin: 0;
+    text-align: center;
+}

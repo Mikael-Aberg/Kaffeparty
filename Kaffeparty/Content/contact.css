@@ -1,0 +1,49 @@
+﻿body {
+    font-family: 'Cambria Math';
+    background: linear-gradient(to bottom right, #ffeec9, #d4ba82);
+}
+
+.address {
+    padding-top: 50px;
+}
+
+hr {
+    border-top: solid #c1a66b 1px;
+}
+
+h1 {
+    font-family: Elephant;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.about-us {
+    margin: 20px;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.center-me {
+    margin: 0;
+    text-align: center;
+}

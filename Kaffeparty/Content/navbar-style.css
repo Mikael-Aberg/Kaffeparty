@@ -1,0 +1,82 @@
+﻿body {
+    padding-top: 110px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #6d553e, #8a6948);
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+#submenu {
+    font-family:'Agency FB';
+    float: right;
+    margin-top: -50px;
+}
+
+    #submenu ul {
+        text-align: end;
+        border-top: solid 1px #c1a66b;
+    }
+
+        #submenu ul li {
+            margin-right: 5px;
+            list-style: none;
+            display: inline-block;
+        }
+
+    #submenu a {
+        text-decoration: none;
+    }
+
+        #submenu a:hover {
+            color: #333;
+        }
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 30px;
+    font-family: 'Agency FB';
+}
+
+.navbar-toggle {
+    margin-top: 35px;
+    background-color: #ffeec9;
+}
+
+.navbar a {
+    margin: 5px;
+}
+
+.navbar ul {
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+@media(max-width : 480px) {
+    #submenu ul {
+        padding: 0;
+    }
+
+    #submenu a {
+        font-size: 13px;
+    }
+
+    .navbar ul {
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    #submenu ul li {
+        margin-right: 0;
+        list-style: none;
+        display: inline-block;
+    }
+}
+
+@media(max-width:767px) {
+    .logo {
+        margin-left: 15px;
+    }
+}

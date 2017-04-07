@@ -1,0 +1,79 @@
+﻿body {
+    font-family: 'Cambria Math';
+    background-color: #e4d2ab;
+    background: linear-gradient(to right bottom, #e4d2ab, #f5d792);
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Elephant;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.center-me {
+    text-align: center;
+}
+
+.panel-body {
+    margin-top: 20px;
+    border-radius: 20px;
+    color: #0A0601;
+    background: linear-gradient(to bottom right, #ffeec9, #d4ba82);
+}
+
+.description {
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+.panel.panel--styled {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+}
+
+.panelTop {
+    padding: 10px;
+}
+
+.page-header {
+    border-color: #c1a66b;
+}
+
+.panelBottom {
+    border-top: 1px solid #c1a66b;
+    padding-top: 20px;
+}
+
+@media(max-width:992px) and (min-width:768px) {
+    .panelBottom {
+        border: none;
+    }
+}
+
+.btn-add-to-cart {
+    background: #FD5A5B;
+    color: #fff;
+}
+
+.btn.btn-add-to-cart.focus, .btn.btn-add-to-cart:focus, .btn.btn-add-to-cart:hover {
+    color: #fff;
+    background: #FD7172;
+    outline: none;
+}
+
+.btn-add-to-cart:active {
+    background: #F9494B;
+    outline: none;
+}
+
+span.itemPrice {
+    font-size: 24px;
+    color: #FA5B58;
+}
